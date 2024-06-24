@@ -1,14 +1,8 @@
-//
-//  main.cpp
-//  project
-//
-//  Created by Максим Волков on 22.06.2024.
-//
-
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    std::cout << "Enter A and B: ";
+    int a, b;
+    std::cin >> a >> b;
     return 0;
 }
