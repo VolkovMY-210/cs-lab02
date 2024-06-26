@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 int main() {
     std::cout << "Enter A and B: ";
@@ -8,6 +9,7 @@ int main() {
     std::cout << "A + B = " << a + b << '\n'
               << "A - B = " << a - b << '\n'
               << "A * B = " << a * b << '\n'
-              << "A / B = " << a / b << '\n';
+              << "A / B = " << a / b << '\n'
+              << "max(A B) = " << std::max(a, b) << '\n';
     return 0;
 }
